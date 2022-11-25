@@ -116,6 +116,7 @@
 	flex-wrap: wrap;
 	gap: 1rem;
 }
+
 .storeInfo__item {
 	background-color: var(--lightGreen-1);
 	padding: 20px 30px;
@@ -123,6 +124,9 @@
 	text-align: center;
 	border-radius: 12px;
 	width: 150px;
+}
+.storeInfo__item:hover{
+	background-color: white;
 }
 .storeInfo__icon {
 	width: 30px;
@@ -180,7 +184,7 @@
 	flex-direction: column;
 	background-color: var(--lightGreen-1);
 	padding: 0.5rem;
-	border-radius: 8px;
+	border-radius: 5rem 0;
 	gap: 0.5rem;
 }
 .dishGrid__item__img {
@@ -220,8 +224,8 @@
 	}
 	.dishGrid__item {
 		flex-direction: row;
-		padding: 1.5rem;
-		border-radius: 12px;
+		padding: 3rem;
+		border-radius: 5rem 0;
 		gap: 1rem;
 	}
 	.dishGrid__item__title {

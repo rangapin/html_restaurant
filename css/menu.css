@@ -37,7 +37,7 @@
 	gap: 2rem;
 	background-color: var(--lightGreen-1);
 	padding: 1.5rem;
-	border-radius: 12px;
+	border-radius: 5rem 0;
 }
 .ourSpecials__item__img,
 .ourSpecials__item__info {
