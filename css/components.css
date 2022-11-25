@@ -97,9 +97,16 @@
 	font-size: 1.4rem;
 	padding: 1.2rem 2rem;
 }
+.btn:hover {
+	color: var(--green-2);
+}
 .primary-btn {
-	color: var(--white-1);
+	color: whitesmoke;
 	background: var(--green-1);
+}
+.primary-btn:hover {
+	color: var(--green-1);
+	background: whitesmoke;
 }
 @media only screen and (min-width: 700px) {
 	.btn {
@@ -273,6 +280,9 @@ footer {
 	background-color: var(--white-1);
 	border: 1px solid var(--green-2);
 	border-radius: 8px;
+}
+.footer__socials a:hover{
+	background-color: #008037;
 }
 .footer__socials svg {
 	width: 20px;
